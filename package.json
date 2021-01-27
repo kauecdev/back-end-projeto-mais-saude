@@ -4,12 +4,17 @@
   "description": "API Mais Saude",
   "main": "index.js",
   "scripts": {
+    "start": "node src/server.ts",
+    "postinstall": "tsc",
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kauecdev/back-end-projeto-mais-saude.git"
+  },
+  "engines": {
+    "node": "12.18.2"
   },
   "keywords": [
     "api",
