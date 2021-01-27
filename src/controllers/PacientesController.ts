@@ -3,6 +3,12 @@ import { getRepository } from 'typeorm';
 import Paciente from '../models/Paciente';
 
 export default {
+
+  async index(request: Request, response: Response) {
+    return response.json({
+      msg: 'v1 API - Mais Saúde'
+    });
+  },
   
   async create(request: Request, response: Response) {
     const {
