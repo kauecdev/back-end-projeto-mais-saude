@@ -36,7 +36,7 @@ export class criarPacientes1611239704103 implements MigrationInterface {
           type: 'varchar'
         },
         {
-          name: 'rua',
+          name: 'logradouro',
           type: 'varchar'
         }, 
         {
@@ -44,7 +44,7 @@ export class criarPacientes1611239704103 implements MigrationInterface {
           type: 'varchar'
         },
         {
-          name: 'numero_casa',
+          name: 'numero',
           type: 'integer'
         },
         {

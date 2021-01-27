@@ -1,15 +1,11 @@
 import express from 'express';
-
 import './database/connection';
+
+import routes from './routes'
 
 const app = express();
 
 app.use(express.json());
-
-app.get('/', (req, res) => {
-  res.json({
-    "msg": "Tudo certo"
-  })
-})
+app.use(routes)
 
 app.listen(3333);
