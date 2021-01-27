@@ -2,7 +2,7 @@
   "name": "api-mais-saude",
   "version": "1.0.0",
   "description": "API Mais Saude",
-  "main": "src/server.ts",
+  "main": "src/server",
   "scripts": {
     "start": "ts-node src/server.ts",
     "postinstall": "tsc",
