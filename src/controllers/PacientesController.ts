@@ -4,7 +4,6 @@ import Paciente from '../models/Paciente';
 
 export default {
 
-  
   async create(request: Request, response: Response) {
     const {
       cpf_paciente,
